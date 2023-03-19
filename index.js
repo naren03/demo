@@ -1,2 +1,0 @@
-// dfskfjsf
-alert("Hiiiiii");
