@@ -1,71 +1,90 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
 			integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
-  <title>Document</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="media-links">
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-      </div>
-      <div class="logo"><img src="logo.jpeg" alt="" /></div>
-      <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
-    </nav>
-  </header>
-  <!-- intro section start -->
-  <section id="intro">
-    <div class="container">
+		<title>Document</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="media-links">
+					<i class="fa-brands fa-linkedin"></i>
+					<!-- <i class="fa-brands fa-facebook"></i> -->
+					<i class="fa-brands fa-instagram"></i>
+				</div>
+				<div class="logo"><img src="logo.jpeg" alt="" /></div>
+				<div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+			</nav>
+			<div id="nav-list">
+				<ul>
+					<a href="#intro"><li>Home</li></a>
+					<a href="#gallery"><li>Gallery</li></a>
+					<a href="#contact"><li>Contact</li></a>
+					<a href="#contact"><li>About</li></a>
+				</ul>
+			</div>
+		</header>
+		<!-- intro section start -->
+		<section id="intro">
+			<div class="container">
+				<div class="cards">
+					<img src="./resources/pic1.png" alt="pic1" />
+					<div>
+						<h3>Random heading</h3>
+						<p>
+							lorem ipsum orem ipsum orem ipsum orem
+							<br />
+							ipsum orem ipsum orem ipsum
+						</p>
+					</div>
+				</div>
 
-      <div class="cards">
-        <img src="./resources/pic1.png" alt="pic1">
-        <div>
-          <h3>Random heading</h3>
-          <p>lorem ipsum orem ipsum orem ipsum orem<br> ipsum orem ipsum orem ipsum</p>
-        </div>
-      </div>
+				<div class="cards">
+					<div>
+						<h3>Random heading</h3>
+						<p>
+							lorem ipsum orem ipsum orem ipsum orem
+							<br />
+							ipsum orem ipsum orem ipsum
+						</p>
+					</div>
+					<img src="./resources/pic2.png" alt="pic2" />
+				</div>
+			</div>
+		</section>
+		<!-- intro section end -->
 
-      <div class="cards">
-        <div>
-          <h3>Random heading</h3>
-          <p>lorem ipsum orem ipsum orem ipsum orem<br> ipsum orem ipsum orem ipsum</p>
-        </div>
-      <img src="./resources/pic2.png" alt="pic2">
-      </div>
+		<!-- gallery section start -->
+		<section id="gallery"></section>
+		<!-- gallery sectione end  -->
 
-    </div>
-  </section>
-  <!-- intro section end -->
+		<!-- contact senction satrt  -->
+		<section id="contact">
+			<form action="#">
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" required />
 
-  <!-- gallery section start -->
-  <section id="gallery">
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" required />
 
-  </section>
-  <!-- gallery sectione end  -->
+				<label for="message">Message</label>
+				<textarea id="message" name="message" required></textarea>
 
-  <!-- contact senction satrt  -->
-  <section id="contact">
+				<input type="submit" value="Submit" />
+			</form>
+		</section>
+		<!-- contact section end  -->
 
-  </section>
-  <!-- contact section end  -->
-
-  <footer>
-
-  </footer>
-  <script src="index.js" type="text/javascript"></script>
-</body>
-
+		<footer></footer>
+		<script src="index.js" type="text/javascript"></script>
+	</body>
 </html>
-
